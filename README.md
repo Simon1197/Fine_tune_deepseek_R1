@@ -36,6 +36,12 @@ install the requirments
 pip install -r requirments.txt
 ```
 
+Step 3.
+install datasets or implement your custom datasets (Here, we use Nvidia HelpSteer to illustrate)
+```
+pip install datasets
+```
+
 # execute command
 ```
 CUDA_VISIBLE_DEVICES=0,1 deepspeed --num_gpus=2 deepseek.py
