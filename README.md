@@ -32,10 +32,13 @@ conda activate deepseek
 
 Step 2. 
 install the requirments
+```
+pip install -r requirments.txt
+```
 
 # execute command
 ```
-CUDA_VISIBLE_DEVICES=0,1 deepspeed --num_gpus=2 my_training_script.py
+CUDA_VISIBLE_DEVICES=0,1 deepspeed --num_gpus=2 deepseek.py
 ```
 
 
