@@ -96,13 +96,13 @@ trainer = Trainer(
 trainer.train()
 
 
-model.save_pretrained("final_model-r1")
-tokenizer.save_pretrained("final_model-r1")
+model.save_pretrained("final_model")
+tokenizer.save_pretrained("final_model")
 
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
-model = AutoModelForSequenceClassification.from_pretrained("final_model-r1")
-tokenizer = AutoTokenizer.from_pretrained("final_model-r1")
+model = AutoModelForSequenceClassification.from_pretrained("final_model")
+tokenizer = AutoTokenizer.from_pretrained("final_model")
 
 from transformers import pipeline
 
