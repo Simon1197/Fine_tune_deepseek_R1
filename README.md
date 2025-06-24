@@ -47,5 +47,9 @@ pip install datasets
 CUDA_VISIBLE_DEVICES=0,1 deepspeed --num_gpus=2 deepseek.py
 ```
 
+# execute ollama command
+```
+deepspeed --num_gpus=2 ollama_fine_tune.py
+```
 
 
