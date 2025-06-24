@@ -1,0 +1,3 @@
+# config.yaml
+huggingface:
+  token: hf_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
